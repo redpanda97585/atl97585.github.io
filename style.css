@@ -1,0 +1,13 @@
+:root {
+    --googleFont: @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;1,400&display=swap');
+}
+
+h1 {
+    font-family: var(--googleFont);
+    color: black;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}

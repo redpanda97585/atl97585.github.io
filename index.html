@@ -19,41 +19,58 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            margin: 40px;
+            margin: 0;
             background-color: black;
         }
         .main_container {
             display: inline-flex;
             flex-direction: column;
             background-color: white;
-            padding: 30px;
+            padding: 3rem;
+            margin: auto 15%;
+            max-width: 40em;
+            min-width: 30em;
         }
         /* .links_container {
             display: flex;
             flex-direction: column;
             padding: 10px;
         } */
+        .container_header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .avatar_profile {
+            display: flex;
+            flex-direction: row;
+        }
 
     </style>    
 </head>
 <body>
     <div class="main_container">
         <!-- - -->
-        <div>
+        <div class="container_header">
             <!-- <h1><a href="https://atl97853.github.io/">Atl97585</a></h1> -->
-            <h2>Main</h2>
-            <h2>Sections list</h2>
-            <h2>Contact</h2>
+            <h2><a href="./index.html">Main</a></h2>
+            .
+            <h2><a href="">Sections list</a></h2>
+            .
+            <h2><a href="">Sections list</a></h2>
         </div>
         <hr>
         <!-- - -->
-        <!-- <div><img id="ozen_image" src="./ozen_the_inmovable.jpg" alt="profile_image"></div> -->
-        <div>
-            <h1><a href="https://atl97853.github.io/">Atl97585 home page</a></h1>
-            <p>Atl97585-Computer Science student and Game developer.</p>
-        </div>
+        <div class="container_content">
+            <div class="avatar_profile">
+                <div>
+                    <h1><a href="https://atl97853.github.io/">Atl97585 home page</a></h1>
+                    <p>Atl97585-Computer Science student and Game developer.</p>
+                    <p>Join my community <a href="">testing link</a></p>
+                </div>
+                <a href="./ozen_the_inmovable.jpg"><img id="ozen_image" src="./ozen_the_inmovable.jpg" alt="profile_image"></a>
+             </div>
         <!-- - -->
-        <div>
             <h1>1 Articles</h1>
             <h1>1.1 Something text</h1>
             <ul>
@@ -90,7 +107,7 @@
         </div>
         <hr>
         <!-- - -->
-        <div>
+        <div class="container_footer">
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus non placeat, ea amet natus dignissimos tenetur magnam quisquam dolor in provident repudiandae aliquam nam assumenda asperiores hic temporibus beatae itaque.
             </p>

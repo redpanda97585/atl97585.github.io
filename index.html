@@ -10,11 +10,10 @@
         :root {
             
             --custom-green: #8BEF5E;
-            --custom-blue: #3D8FDF;
-            --custom-green2: #46FDB9;
-            --custom-grey: #6A6A6A;
-            --custom-black: #0E0E0E;
-            --custom-white: white;
+            --custom-dark-blue: #1F2544;
+            --custom-blue: #474F7A;
+            --custom-purple: #81689D;
+            --custom-pink: #FFD0EC;
             --custom-font: "Ubuntu", "Nimbus Sans", "Helvetica", sans-serif;
 
             --custom-new-blue: #161A30;
@@ -28,21 +27,21 @@
             justify-content: center;
             align-items: center;
             margin: 0;
-            background-color: var(--custom-new-white);
+            background-color: var(--custom-dark-blue);
             font-family: var(--custom-new-font);
-            color: var(--custom-new-blue);
+            color: var(--custom-green);
         }
-        .main_container {
+        .general_container {
             display: flex;
             flex-direction: column;
-            background-color: var(--custom-new-white);
+            background-color: var(--custom-dark-blue);
             /* padding: 3rem; */
-            margin: 2em 15%;
-            padding: 2.5%;
+            /* margin: 2em 15%; */
+            padding: .5%;
             max-width: 40em;
             min-width: 30em;
             border-radius: 25px;
-            border: solid var(--custom-new-blue);
+            border: solid var(--custom-green);
         }
         .container_header {
             display: flex;
@@ -52,7 +51,7 @@
         .container_content {
             /* display: flex;
             flex-direction: column; */
-            padding: 3rem;
+            padding: .5%;
         }
         .container_footer{
             display: flex;
@@ -69,23 +68,20 @@
         }
         h1, h2, h3 {
             margin: 0;
-            /* color: var(--custom-new-blue); */
             font-size: 1.4rem;
 
         }
         p {
             margin: 0;
-            /* color: var(--custom-new-blue); */
         }
         .highlight {
             color: var(--custom-new-purple);
         }
         a{
-            color: var(--custom-new-blue);
+            color: var(--custom-green);
         }
         a:not(.avatar_profile>a, .ossu_link):hover {
-            background-color: var(--custom-new-blue);
-            color: var(--custom-new-white);
+            background-color: var(--custom-blue);
             border-radius: 5px;
             padding: 5px;
         }
@@ -99,37 +95,33 @@
         }
         hr {
             width: 85%;
-            border: solid var(--custom-new-purple);
+            border: solid var(--custom-dark-blue);
             border-radius: 5px;
         }
     </style>    
 </head>
 <body>
-    <div class="main_container">
+    <div class="general_container">
         <!-- - -->
         <div class="container_header">
-            <h2><a href="#content">Main</a></h2>
+            <h2><a href="">Main</a></h2>
             .
-            <h2><a href="./projects_page.html" target="_blank">Projects</a></h2>
+            <h2><a href="">Projects</a></h2>
             . 
-            <h2><a href="#contact">Contact</a></h2>
+            <h2><a href="">Contact</a></h2>
         </div>
         <hr>
         <!-- - -->
-        <div class="container_content" id="content">
+        <div class="container_content">
             <!-- - -->
-            <div class="avatar_profile"><a href="./ozen_the_inmovable.jpg"><img src="./ozen_the_inmovable.jpg" alt="avatar_profile"></a></div>
+            <div class="avatar_profile"><a href="./images/ozen_the_inmovable.jpg"><img src="./images/ozen_the_inmovable.jpg" alt="avatar_profile"></a></div>
             <h1><a href="./index.html">Atl97585 home page</a></h1>
             <p>
                 Computer Science student <a class="ossu_link" href="https://github.com/ossu/computer-science" target="_blank">(OSSU)</a><br>
                 Data Science student<br>
                 Game Developer as a weekend hobby
             </p>
-
-            <!-- <canvas id="container_canvas" style="width: 100%; height: auto;"></canvas> -->
-
-
-            <h1 id="contact">Contact</h1>
+            <h1>Contact</h1>
             <ul>
                 <li><a href="https://github.com/atl97853" target="_blank">github</a></li>
                 <li><a href="https://www.duolingo.com/profile/redpanda97585" target="_blank">duolingo</a></li>
@@ -145,7 +137,8 @@
             </p>
         </div>
     </div>
-
+    <div class="general_container" style="background-color: #161A30; height: 370px;">page under construction. . . </div>
+    <div class="general_container" style="background-color: #161A30; height: 370px;">page under construction. . .</div>
     <script src="./index.js"></script>
 </body>
 </html>

@@ -2,116 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/x-icon" href="./ozen_the_inmovable.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Atl97585</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0;
-            background-color: black;
-            /* font-family: var(--custom-new-font); */
-            color: white;
-        }
-        .main_container {
-            display: flex;
-            flex-direction: row;
-            width: 100vw;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-items: center;
-        }
-        .general_container {
-            display: flex;
-            flex-direction: column;
-            /* background-color: var(--custom-new-light-yellow); */
-            /* padding: 3rem; */
-            margin: 2em 15%;
-            padding: .5%;
-            max-width: 40em;
-            min-width: 30em;
-            /* border-radius: 25px;
-            border: solid white; */
-        }
-        .container_header {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        /* .container_content {
-            display: flex;
-            flex-direction: column;
-            padding: .5%;
-        } */
-        /* .container_footer{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        } */
-        .avatar_profile {
-            display: inline;
-            float: right;
-        }
-        .avatar_profile a img {
-            width: 160px;
-            height: auto;
-        }
-        h1, h2, h3 {
-            font-size: 1.4rem;
-        }
-        /* p {
-            margin: 0;
-        } */
-        /* .highlight {
-            color: var(--custom-new-blue);
-        } */
-        a{
-            color: white;
-        }
-        a:not(.avatar_profile>a, .ossu_link):hover {
-            /* background-color: var(--custom-new-blue); */
-            /* color: var(--custom-new-light-yellow); */
-            border-radius: 5px;
-            padding: 5px;
-        }
-        .ossu_link {
-            text-decoration: none;
-        }
-        ul {
-            list-style-type: none;
-        }
-        /* hr {
-            width: 85%;
-            border: solid var(--custom-new-blue);
-            border-radius: 5px;
-        } */
-    </style>    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="general_container">
-        <!-- - -->
-        <div class="container_content">
-            <!-- - -->
-            <div class="avatar_profile"><a href="./images/ozen_the_inmovable.jpg"><img src="./images/ozen_the_inmovable.jpg" alt="avatar_profile"></a></div>
-            <h1>Atl97585 home page</h1>
-            <a href="./blog.html" target="_blank">Blog</a></h1>
-            <p>
-                Computer Science student <a class="ossu_link" href="https://github.com/ossu/computer-science" target="_blank">(OSSU)</a><br>
-                Data Science student<br>
-            </p>
-            <h1>Contact</h1>
-            <ul>
-                <li><a href="https://github.com/atl97853" target="_blank">github</a></li>
-                <li><a href="https://www.duolingo.com/profile/redpanda97585" target="_blank">duolingo</a></li>
-                <li><a href="https://www.instagram.com/deadname99_/" target="_blank">instagram personal</a></li>
-                <li><a href="https://www.youtube.com/@deadname99_43" target="_blank">youtube personal</a></li>
-            </ul>
+    <!-- <div class="main-container">
+        <p></p>
+    </div> -->
+    <div class="side-bar">
+        <div class="avatar-description">
+            <div class="description">
+                <p><br>Computer Science student <a href="https://github.com/ossu/computer-science" target="_blank">(OSSU)</a>
+                <br>Data Science student (UVM)</p>
+                <p><a href="" target="_blank">Blog</a></p>
+                <h4>Contact</h4>
+                <ul class="contact-links">
+                    <li><a href="">github</a></li>
+                    <li><a href="">instagram</a></li>
+                    <li><a href="">youtube</a></li>
+                    <li><a href="">duolingo</a></li>
+
+                </ul>
+            </div>
+            <div class="avatar-image"><img src="./images/ozen_the_inmovable.jpg" alt=""></div>
         </div>
+        <!-- <div class="date-activity-search">
+            <u class="date">2024</u>
+            <u class="date">2023</u>
+        </div> -->
+    </div>
 </body>
 </html>

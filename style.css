@@ -1,4 +1,40 @@
 @import url();
 * {
+    font-family: "Comic Neue", cursive;
+}
 
+body {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 10%;
+    /* background-color: black;
+    color: white; */
+}
+
+/* .main-container {
+    width: 500px;
+    height: auto;
+    background-color: gray;
+} */
+
+.avatar-description {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+/* .avatar-image {
+    display: inline;
+    float: left;
+} */
+
+.description > p > a {
+    color: black;
+    text-decoration: none;
+}
+
+.description > .contact-links {
+    list-style: none;
 }

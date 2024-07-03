@@ -10,6 +10,7 @@ let mainContainer = document.querySelector(".main-container");
 let mode = false;
 
 csPer.innerHTML = csTotal.toString() + "%";
+console.log(csTotal);
 
 document.querySelector(".style-button").onclick = function () {
     if (mode === false) {

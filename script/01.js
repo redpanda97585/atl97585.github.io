@@ -5,9 +5,9 @@ const CS = 48;
 // let csCompleted = 3;
 // let csTotal = Math.round((( csCompleted / 48) * 100)* 100 )/100;
 
-let bodyElement = document.body;
-let mainContainer = document.querySelector(".main-container");
-let mode = false;
+const bodyElement = document.body;
+const mainContainer = document.querySelector(".main-container");
+const mode = false;
 
 // csPer.textContent = csTotal.toString() + "%";
 // console.log(csTotal);

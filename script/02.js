@@ -1,5 +1,5 @@
-bodyElement = document.body;
-mainContainer = document.querySelector(".main-container");
+const bodyElement = document.body;
+const mainContainer = document.querySelector(".main-container");
 mode = false;
 document.querySelector(".style-button").onclick = function () {
     if (mode === false) {

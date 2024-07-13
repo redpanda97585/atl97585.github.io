@@ -6,24 +6,27 @@ const CS = 48;
 // let csTotal = Math.round((( csCompleted / 48) * 100)* 100 )/100;
 
 /**
- * Mode style, light and dark theme 
+ * This feature changes the background and color of the page 
+ * when clicking an assigned button (.style-button) in the html file
+ * using an event listener. 
+ * The feature changes to "light-mode" or "dark-mode" every time 
+ * it is clicked.
 */
-const bodyElement = document.body;
-const mainContainer = document.querySelector(".main-container");
-const mode = false; // Init mode
 
-// csPer.textContent = csTotal.toString() + "%";
-// console.log(csTotal);
+const bodyElement = document.querySelector("body");
+const styleButton = document.querySelector(".style-button");
+let mode; 
 
-document.querySelector(".style-button").onclick = function () {
-    if (mode === false) {
-        bodyElement.style.background = "black";
-        bodyElement.style.color = "white";
-        mode = true;
-    } else {
+console.log(bodyElement);
+
+styleButton.addEventListener("click", () => {
+    if (mode == "darkMode") {
         bodyElement.style.background = "white";
         bodyElement.style.color = "black";
-        mode = false;
-    }
-}
+    } else {
+        bodyElement.style.background = "black";
+        bodyElement.style.color = "white";
+        mode = "darkMode";
+    } 
+});
 

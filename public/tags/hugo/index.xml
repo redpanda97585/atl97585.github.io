@@ -1,27 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on My New Hugo Site</title>
-        <link>http://localhost:42871/posts/</link>
-        <description>Recent content in Posts on My New Hugo Site</description>
+        <title>Hugo on My New Hugo Site</title>
+        <link>http://localhost:42871/tags/hugo/</link>
+        <description>Recent content in Hugo on My New Hugo Site</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Wed, 18 Dec 2024 01:59:34 -0600</lastBuildDate><atom:link href="http://localhost:42871/posts/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 18 Dec 2024 01:59:34 -0600</lastBuildDate><atom:link href="http://localhost:42871/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>I finally managed to deploy my hugo website using github pages!</title>
         <link>http://localhost:42871/posts/deploy_website/</link>
         <pubDate>Wed, 18 Dec 2024 01:59:34 -0600</pubDate>
         
         <guid>http://localhost:42871/posts/deploy_website/</guid>
         <description>&lt;p&gt;I&amp;rsquo;ll just say one thing as a mental note, don&amp;rsquo;t forget to add .gitmodules and .github files in your file directory, and at least this was what worked best for me, directly make your hugo website in your website repository, not in an alternate repository with the &amp;ldquo;public&amp;rdquo; folder linked/mounted to your website repository.&lt;/p&gt;
-</description>
-        </item>
-        <item>
-        <title>Hello_world</title>
-        <link>http://localhost:42871/posts/hello_world/</link>
-        <pubDate>Wed, 18 Dec 2024 01:35:08 -0600</pubDate>
-        
-        <guid>http://localhost:42871/posts/hello_world/</guid>
-        <description>&lt;p&gt;Hi this is my first post usign this website.&lt;/p&gt;
 </description>
         </item>
         
